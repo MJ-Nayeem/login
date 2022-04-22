@@ -1,0 +1,43 @@
+/* withdrew the space */
+* {
+  margin: 0%;
+  padding: 0%;
+  background-color: rgb(126, 206, 133);
+}
+/* id selector */
+#admin-form {
+  background-color: rgb(152, 55, 172);
+  color: darkred;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+/* desendent selector */
+#admin-form h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+}
+input {
+  width: 90%;
+  padding: 5px;
+}
+/* attribute selector */
+input[type="submit"] {
+  background-color: rgb(219, 30, 125);
+  width: 25%;
+  transition: 0.8s;
+}
+input[type="submit"]:hover {
+  background-color: blue;
+  color: rgb(99, 35, 219);
+  font-size: 14px;
+}
+input:focus {background-color: rgb(209, 44, 159)129, 160);
+}
+#admin-form h1::first-letter {
+  font-size: 80px;
+}
+input::placeholder {
+  color: rgb(235, 34, 201);
+}
